@@ -7,7 +7,7 @@ export default function ContactUs() {
         <div className="rounded-lg m-6 ">
           <div className="grid grid-cols-2 gap-5 md:grid-cols-3">
             <div className="col-span-2 row-span-2 border border-blue-300  rounded-lg">
-              Courses{" "}
+              Courses
             </div>
             <div className="border border-blue-300 rounded-lg">
               <table className="min-w-full text-left border rounded-lg overflow-hidden ">
