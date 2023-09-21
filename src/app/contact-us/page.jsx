@@ -6,8 +6,33 @@ export default function ContactUs() {
       <div className=" bg-white">
         <div className="rounded-lg m-6 ">
           <div className="grid grid-cols-2 gap-5 md:grid-cols-3">
-            <div className="col-span-2 row-span-2 border border-blue-300  rounded-lg">
-              Courses
+            <div className="col-span-2 row-span-2 border border-blue-300  rounded-lg p-5">
+              <p className="p-5 font-normal">
+                <b> Address: </b>
+                395 Paik Para, Mirpur, Dhaka- 1216, Bangladesh
+              </p>
+              <div className="h-2 w-full bg-blue-300 m-5"></div>
+
+              <p className="font-bold p-5 ">
+                Email:
+                <Link
+                  className="font-normal underline text-blue-300 ml-1 break-words"
+                  href="mailto:northbengaltrainingcollege@gmail.com"
+                >
+                  northbengaltrainingcollege@gmail.com
+                </Link>
+              </p>
+              <div className="h-2 w-full bg-blue-300 m-5"></div>
+
+              <p className="font-bold p-5">
+                Web:
+                <Link
+                  className="font-normal underline text-blue-300 ml-1"
+                  href="www.nbtcbd.com"
+                >
+                  <>www.nbtcbd.com</>
+                </Link>
+              </p>
             </div>
             <div className="border border-blue-300 rounded-lg">
               <table className="min-w-full text-left border rounded-lg overflow-hidden ">
